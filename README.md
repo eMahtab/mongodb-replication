@@ -1,7 +1,7 @@
 # mongodb-replication
 Creating MongoDB Replica Set
 
-2. We will create a three member replica set. Pick a root working directory to work in. Go to that directory in a console window.
+1. We will create a three member replica set. Pick a root working directory to work in. Go to that directory in a console window.
 
 Given we will have three members in the set, and three mongod processes, create three data directories:
 ```
@@ -10,9 +10,9 @@ mkdir 2
 mkdir 3
 ```
 
-3. We will now start a single mongod as a standalone server. Given we will have three mongod processes on our single test server, we will explicitly specify the port numbers (this wouldn’t be necessary if we had three real machines or three virtual machines). We’ll also use the --smallfiles parameter and --oplogSize so the files are small given we have a lot of server processes running on our test PC.
+2. We will now start a single mongod as a standalone server. Given we will have three mongod processes on our single test server, we will explicitly specify the port numbers (this wouldn’t be necessary if we had three real machines or three virtual machines). We’ll also use the --smallfiles parameter and --oplogSize so the files are small given we have a lot of server processes running on our test PC.
 
-# starting as a standalone server for problem 1:
+# Task 1- starting as a standalone server for problem 1:
 ```
 mongod --dbpath 1 --port 27001 --smallfiles --oplogSize 50
 ```
@@ -30,4 +30,4 @@ Now run:
 
 homework.a() and enter the result. This will simply confirm all the above happened ok.
 
-##You should get out put as 5001
+##You should get output as 5001
