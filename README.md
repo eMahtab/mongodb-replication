@@ -112,3 +112,5 @@ Tip: You can either use rs.reconfig() with your new configuration that does not 
 
 When done, run:
 > homework.d()
+
+## You should get output as 6
