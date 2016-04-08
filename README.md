@@ -29,3 +29,5 @@ This will load a small amount of test data into the database.
 Now run:
 
 homework.a() and enter the result. This will simply confirm all the above happened ok.
+
+*** You should get out put as 5001***
