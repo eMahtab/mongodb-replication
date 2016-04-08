@@ -54,3 +54,4 @@ db.foo.find()
 Once done with that, run
 
 homework.b() in the mongo shell, what output do you get 
+##You should get output as 5002
